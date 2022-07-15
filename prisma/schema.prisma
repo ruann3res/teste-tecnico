@@ -12,5 +12,5 @@ model User {
   email    String @unique
   password String
   name String
-  isAdmin Boolean 
+  isAdmin Boolean @default(false)
 }
